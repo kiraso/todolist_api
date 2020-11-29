@@ -1,19 +1,19 @@
 {
-  "name": "restAPI",
+  "name": "todolist_api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "dt": "0.0.1",
     "express": "^4.17.1",
-    "mongoose": "^5.10.15",
+    "mongoose": "^5.10.17",
     "nodemon": "^2.0.6"
   }
 }
